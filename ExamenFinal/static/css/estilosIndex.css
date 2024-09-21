@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: Poppins, sans-serif;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+#button-left {
+    background-color: rgb(161,37,170);
+    transition: background-color 0.5s ease;
+}
+
+#button-right{
+    background-color: rgb(152,198,69);
+    transition: background-color 0.5s ease;
+}
+
+#button-left:hover {
+    background-color: rgb(86, 4, 92);
+}
+
+#button-right:hover {
+    background-color: rgb(95, 133, 27);
+}
